@@ -87,7 +87,7 @@ def checkout_session(request,plan_id):
 	        'product_data': {
 	          'name': plan.title,
 	        },
-	        'unit_amount': plan.price*100,
+	        'unit_amount': 100,
 	      },
 	      'quantity': 1,
 	    }],
